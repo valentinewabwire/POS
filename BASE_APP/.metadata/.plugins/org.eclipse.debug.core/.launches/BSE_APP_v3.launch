@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ingenico.ingedev.launch.remoteTeliumLaunch">
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.AUTO_CHECK_SDK" value="false"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.CHECKLOAD_BINARIES" value="true"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.core.CONNECTION_TYPE" value="RS232"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.DEBUGGER_STOP_AT_BUFFER_OVERFLOW" value="false"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.DEBUGGER_STOP_AT_MAIN" value="false"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.core.ETH_PROTOCOL" value="TCP"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.core.GDB_INIT" value=""/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.LOAD_BINARIES" value="true"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.core.OTHER_COM_PORT" value="/dev/com"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.core.OTHER_ETH_IP_ADDRESS" value="0.0.0.0"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.core.OTHER_ETH_PORT" value=""/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.UNLOAD_BINARIES" value="false"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.USE_DEFAULT_COM_PORT" value="true"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.USE_DEFAULT_ETH_IP_ADDRESS" value="true"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.core.USE_DEFAULT_ETH_PORT" value="true"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.dsf.BINARY_AGE_PATH" value="/home/LEGACY_FS/SWAP/"/>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.dsf.BINARY_PUT_PATH" value="/home/LEGACY_FS/SWAP/"/>
+<booleanAttribute key="com.ingenico.ingedev.telium.remotedebug.dsf.LOAD_DEPENDENT_PROJECTS" value="true"/>
+<mapAttribute key="com.ingenico.ingedev.telium.remotedebug.dsf.PROJECTS_CONFIGS_MAP">
+<mapEntry key="BSE_APP_v3" value=""/>
+</mapAttribute>
+<stringAttribute key="com.ingenico.ingedev.telium.remotedebug.dsf.VERSION" value="1.0"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="C:/Program Files/Ingenico/IngeDev_8.18.0.5/plugins/com.ingenico.ingedev.telium.gdb.bin.arm-linux.7.12.1.win32_1.0.2.201705090639/os/win32/gdb-arm-linux-7.12.1.exe"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEV" value="//./com4"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEV_SPEED" value="115200"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value=""/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.REMOTE_TCP" value="false"/>
+<listAttribute key="org.eclipse.cdt.dsf.gdb.SOLIB_PATH"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="Main"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="E:/valentine/proffesion/Move2500/project/BASE_APP/BSE_APP_v3/Obj/GNU_ARM_DEBUG_TETRA/BSEAPPAPP02.axf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="BSE_APP_v3"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/BSE_APP_v3"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+<stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+</launchConfiguration>

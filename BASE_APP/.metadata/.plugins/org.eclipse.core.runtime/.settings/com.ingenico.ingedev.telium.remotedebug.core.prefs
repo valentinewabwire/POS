@@ -1,0 +1,3 @@
+defaultCOMPort=/dev/com4
+eclipse.preferences.version=1
+remoteTimeout=3000
